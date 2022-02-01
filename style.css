@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+
+.btn-1 {
+  border: none;
+  padding: 20px;
+  background-color: rgb(25, 201, 98);
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  color: aliceblue;
+  width: 150px;
+}
+.week-1 {
+  background-image: url(VerifyIt_Bg.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.week-1 p,
+.week-1 img {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.week-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7dcea0;
+  height: 410px;
+  overflow: hidden;
+}
+
+.week-2 .search-section {
+  width: 1000px;
+}
+
+.week-2 img:first-child {
+  height: 400px;
+  margin-top: 30px;
+}
+
+.week-2 img:nth-child(3) {
+  height: 300px;
+}
+
+.week-2 .search-section h2{
+  text-align: center;
+}
+
+.week-2 .search-section .input-wrapper {
+  height: 100px;
+  background-color: #fff;
+}
+
+.search-section .input-wrapper input {
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.mex a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.logo {
+  margin-right: 50px;
+}
+.container ul {
+  padding: 0;
+}
+
+.mount {
+  display: flex;
+}
+
+.mount li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.mount li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.spaz span {
+  background-color: rgb(255, 153, 0);
+  color: whitesmoke;
+  font-size: 10px;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.week-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.paps {
+  display: flex;
+  border-radius: 5px;
+  margin-top: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+.paps p {
+  font-weight: bold;
+}
+.p-1 {
+  background-color: #f5b041;
+}
+
+.p-2 {
+  background-color: #58d68d;
+}
+
+.p-3 {
+  background-color: #85c1e9;
+}
